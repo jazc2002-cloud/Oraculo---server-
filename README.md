@@ -1,1 +1,11 @@
-# Oraculo---server-
+{
+  "name": "oraculo-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7"
+  },
+  "scripts": { "start": "node server.js" }
+}
